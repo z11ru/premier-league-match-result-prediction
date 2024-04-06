@@ -48,5 +48,8 @@ for col in merged_df.columns:
     if col not in excluded_columns:
         merged_df[col] = merged_df[col] / merged_df['Minutes Played']
 
+# Shift the 'Initial Year' column by 1, to match the player's previous year performance to current year's match.
+merged_df['Initial Year'] = merged_df['Initial Year'] + 1
+
 merged_df.to_csv('./data/merged_player_data.csv', index=False)
 
