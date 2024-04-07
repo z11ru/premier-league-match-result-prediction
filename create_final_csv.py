@@ -79,8 +79,8 @@ for _, row in merged_match_data.iterrows():
         away_stat_avg = away_stat_total / len(away_players)
 
         # Append the calculated averages to the final set
-        match_stat_totals[f'Average {stat} per 90 Home'] = home_stat_avg
-        match_stat_totals[f'Average {stat} per 90 Away'] = away_stat_avg
+        match_stat_totals[f'Average {stat} per Min Home'] = home_stat_avg
+        match_stat_totals[f'Average {stat} per Min Away'] = away_stat_avg
 
     print(f'Calculated all stats for match {match_id}.')
 
