@@ -15,5 +15,5 @@ The data used is [final_dataset.csv](final_dataset.csv).
 Please see [MatchResultPrediction.ipynb](MatchResultPrediction.ipynb).
 
 ## Report
-PPlease see [ENEL645 - Final Project.pdf](ENEL645%20-%20Final%20Project.pdf).
+Please see [ENEL645 - Final Project.pdf](ENEL645%20-%20Final%20Project.pdf).
 
